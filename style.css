@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.nv-p {
+    font-size: 16px;
+}
+
+#home {
+    height: 650px;
+    width: 100%;
+    background-image: url(https://www.wallpaperflare.com/static/800/486/460/headphones-yellow-background-music-black-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#home h1 {
+    font-weight: 900;
+}
+
+.intro {
+    padding-left: 80px;
+    padding-top: 200px;
+}
+
+/* Container for the image and overlay */
+.image-container {
+    position: relative;
+  }
+  
+
+  /* The overlay */
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 2;
+    width: 91.8%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust the last value for transparency */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Transition effect for smooth hover */
+  }
+  
+  /* Text on the overlay */
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  /* Hover effect */
+  .image-container:hover .image-overlay {
+    opacity: 1;
+  }
+
+
+
+
+
+  .number-container{
+    position: relative;
+  }
+
+  .number-container h1{
+    font-size: 90px ;
+    font-weight: bolder;
+    color: #F2C76E;
+  }
+
+  .number-overlay {
+    position: absolute;
+    top: 40px;
+    font-weight: bold;
+  }
